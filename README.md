@@ -15,8 +15,8 @@ A simple web app for displaying your favorite Marvel characters (superhero or su
 ![Screenshot 3: Full project plan](https://i.imgur.com/57AxxR2.png)
 
 ## Getting Started
-[Click here](#) to see the site live
+![Click here](#) to see the site live
 
 ## Future Enhancements
 * Add the stories in which the selected character features in
-* Add baby groot picture on page with speech bubble stating "From one Marvel fan to another, Happy Searching!"
+* Add baby groot picture on page (![baby groot photo](https://i.imgur.com/bOEusF2.png)) with speech bubble stating "From one Marvel fan to another, Happy Searching!"
