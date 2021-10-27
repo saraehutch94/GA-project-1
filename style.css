@@ -8,12 +8,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex-grow: 1;
+    text-align: center;
+    padding: 25px;
 }
 
 header, footer {
@@ -24,5 +20,11 @@ header, footer {
 }
 
 footer {
+    position: absolute;
     flex-direction: column;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
 }
