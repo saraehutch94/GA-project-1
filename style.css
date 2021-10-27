@@ -10,9 +10,35 @@ body {
     min-height: 100vh;
     text-align: center;
     padding: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.type-area {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 10px 0 0;
+}
+
+.button {
+    font-size: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 10px 0 0;
 }
 
 header, footer {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,3 +54,4 @@ footer {
     height: 100px;
     overflow: hidden;
 }
+
