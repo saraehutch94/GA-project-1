@@ -45,6 +45,11 @@ function render() {
             <p>${description}</p>
         </article>    
     `);
+    $main.css({
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center"
+    });
     const $image = $(".image");
     $image.css({
         "border-radius": "50%"
