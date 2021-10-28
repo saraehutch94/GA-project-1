@@ -22,10 +22,10 @@ $form.on("submit", handleSubmit);
 function handleSubmit(evt) {
     evt.preventDefault();
     const characterName = $input.val();
-    $.ajax(`${BASE_URL}:443/v1/public/characters?name=${characterName}&apikey=${API_KEY}`)
+    $.ajax(`${BASE_URL}:443/v1/public/characters?name=${characterName}&limit=100&apikey=${API_KEY}`)
     .then(function (data) {
         marvelData = data;
-        console.log(data);
+        // console.log(data);
         render();
     }, function (error) {
         console.log("promise failed");
@@ -37,6 +37,12 @@ function render() {
     const name = marvelData.data.results[0].name;
     const description = marvelData.data.results[0].description;
     const imageURL = (marvelData.data.results[0].thumbnail.path) + "." + marvelData.data.results[0].thumbnail.extension;
+    const arrayOfStories = marvelData.data.results[0].events.items;
+    console.log(arrayOfStories);
+    for (let i = 0; i < arrayOfStories.length; i++) {
+        let nameOfStory = arrayOfStories[i].name;
+        console.log(nameOfStory);
+    }
     $main.html(`
         <article class="image">
             <img src="${imageURL}" class="image" alt="Image of Marvel Character" width="325" height="325">
@@ -48,6 +54,7 @@ function render() {
     `);
     $main.css({
         "display": "flex",
+        "flex-wrap": "wrap",
         "justify-content": "center",
         "align-items": "center",
     });
@@ -57,9 +64,9 @@ function render() {
     });
     const $nameAndDesc = $(".name-and-desc");
     $nameAndDesc.css({
-        "font-size": "20px",
-        "width": "300px",
-        "margin": "20px",
+        "font-size": "18px",
+        "width": "275px",
+        "margin": "25px",
         "padding": "10px"
     });
     const $nameTitle = $(".name-title");
