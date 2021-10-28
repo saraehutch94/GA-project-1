@@ -41,17 +41,28 @@ function render() {
             <img src="${imageURL}" class="image" alt="Image of Marvel Character" width="350" height="350">
         </article>
         <article class="name-and-desc">
-            <h3>${name}</h3>
+            <h3 class="name-title">${name}</h3>
             <p>${description}</p>
         </article>    
     `);
     $main.css({
         "display": "flex",
         "justify-content": "center",
-        "align-items": "center"
+        "align-items": "center",
     });
     const $image = $(".image");
     $image.css({
         "border-radius": "50%"
+    });
+    const $nameAndDesc = $(".name-and-desc");
+    $nameAndDesc.css({
+        "font-size": "20px",
+        "width": "500px",
+        "margin": "30px",
+        "padding": "10px"
+    });
+    const $nameTitle = $(".name-title");
+    $nameTitle.css({
+
     });
 };

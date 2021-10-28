@@ -6,6 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
     background: linear-gradient(45deg, rgb(18, 106, 206), red);
     background-repeat: no-repeat;
@@ -16,8 +17,15 @@ body {
     font-weight: 300;
 }
 
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
 main {
-    flex-grow: 1;
+    color: white;
+    width: 800px;
 }
 
 header {
@@ -59,8 +67,10 @@ header, footer {
 footer {
     position: relative;
     flex-direction: column;
+    margin-top: auto;
     left: 0;
     bottom: 0;
+    height: 3rem;
     width: 100%;
     overflow: hidden;
 }
