@@ -38,7 +38,7 @@ function render() {
     const imageURL = (marvelData.data.results[0].thumbnail.path) + "." + marvelData.data.results[0].thumbnail.extension;
     $main.html(`
         <article class="image">
-            <img src="${imageURL}" class="image" alt="Image of Marvel Character" width="350" height="350">
+            <img src="${imageURL}" class="image" alt="Image of Marvel Character" width="325" height="325">
         </article>
         <article class="name-and-desc">
             <h3 class="name-title">${name}</h3>
@@ -57,12 +57,10 @@ function render() {
     const $nameAndDesc = $(".name-and-desc");
     $nameAndDesc.css({
         "font-size": "20px",
-        "width": "500px",
-        "margin": "30px",
+        "width": "300px",
+        "margin": "20px",
         "padding": "10px"
     });
     const $nameTitle = $(".name-title");
-    $nameTitle.css({
-
-    });
+    $nameTitle.addClass("title-font");
 };
