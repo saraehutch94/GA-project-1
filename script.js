@@ -33,5 +33,20 @@ function handleSubmit(evt) {
 };
 
 function render() {
-    console.log(marvelData);
+    const name = marvelData.data.results[0].name;
+    const description = marvelData.data.results[0].description;
+    const imageURL = (marvelData.data.results[0].thumbnail.path) + "." + marvelData.data.results[0].thumbnail.extension;
+    $main.html(`
+        <article class="image">
+            <img src="${imageURL}" class="image" alt="Image of Marvel Character" width="350" height="350">
+        </article>
+        <article class="name-and-desc">
+            <h3>${name}</h3>
+            <p>${description}</p>
+        </article>    
+    `);
+    const $image = $(".image");
+    $image.css({
+        "border-radius": "50%"
+    });
 };
