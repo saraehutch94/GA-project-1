@@ -56,7 +56,8 @@ function render() {
         "width": "500px",
     });
     $storyTitle.css({
-        "display": "block"
+        "display": "block",
+        "margin": "0 0 10px 0"
     });
     $storyTitle.addClass("story-title-font");
     $main.css({
@@ -73,7 +74,7 @@ function render() {
     $nameAndDesc.css({
         "font-size": "18px",
         "width": "275px",
-        "margin": "20px",
+        "margin": "0 20px 20px 0",
         "padding": "10px"
     });
     const $nameTitle = $(".name-title");

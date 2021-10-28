@@ -60,6 +60,10 @@ header {
     font-size: 30px;
 }
 
+.form-div {
+    margin: 0 0 -25px 0;
+}
+
 .type-area {
     height: 30px;
     width: 200px;
