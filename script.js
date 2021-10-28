@@ -25,6 +25,7 @@ function handleSubmit(evt) {
     $.ajax(`${BASE_URL}:443/v1/public/characters?name=${characterName}&apikey=${API_KEY}`)
     .then(function (data) {
         marvelData = data;
+        console.log(data);
         render();
     }, function (error) {
         console.log("promise failed");
