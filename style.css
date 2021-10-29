@@ -110,6 +110,9 @@ header, footer {
 .baby-groot-wrapper {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 100px;
+    right: 30px;
 }
 
 .baby-groot {
@@ -118,6 +121,7 @@ header, footer {
 
 .speech-bubble {
     margin: 0 0 0 -40px;
+    filter: brightness(0) invert(1);
 }
 
 .image-wrapper {
@@ -149,6 +153,10 @@ footer {
     header {
         top: 20px;
         font-size: 30px;
+    }
+
+    .baby-groot-wrapper {
+        width: 100%;
     }
 
     .form-div {
