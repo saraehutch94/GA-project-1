@@ -50,10 +50,13 @@ function render() {
     const eventArray = marvelData.data.results[0].events.items;
     for (let i = 0; i < eventArray.length; i++) {
         let stories = eventArray[i].name;
-        $storiesDiv.append(`${stories}`);
+        $storiesDiv.append(`<p>${stories}</p>`);
     }
     $storiesDiv.css({
-        "width": "500px",
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "justify-content": "space-between",
+        "width": "550px"
     });
     $storyTitle.css({
         "display": "block",

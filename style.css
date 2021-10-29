@@ -90,12 +90,35 @@ header {
     display: none;
 }
 
+.story-list {
+    list-style-type: none;
+}
+
 header, footer {
     color: white;
     display: flex;
     align-items: center;
     height: 6rem;
 }
+
+.baby-groot {
+    position: relative;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+/* .baby-groot-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.baby-groot {
+    margin: 0 -40px 0 0;
+} */
+
+/* .speech-bubble {
+    margin: 0 0 0 -40px;
+} */
 
 footer {
     font-size: 13x;
