@@ -56,7 +56,8 @@ function render() {
         "display": "flex",
         "flex-wrap": "wrap",
         "justify-content": "space-between",
-        "width": "550px"
+        "width": "550px",
+        "margin": "0 0 40px 0"
     });
     $storyTitle.css({
         "display": "block",
