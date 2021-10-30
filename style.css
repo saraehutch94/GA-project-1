@@ -171,6 +171,21 @@ footer {
     overflow: hidden;
 }
 
+/* @media (max-width: 358px) {
+    .speech-bubble {
+        width: 150px;
+        height: 120px;
+    }
+
+    .speech-bubble-text {
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+        top: 45px;
+        left: -5px;
+    }
+} */
+
 @media (max-width: 414px) {
     header {
         top: 20px;
@@ -197,18 +212,5 @@ footer {
 
     .button {
         margin-bottom: -30px;
-    }
-
-    .speech-bubble {
-        width: 150px;
-        height: 120px;
-    }
-
-    .speech-bubble-text {
-        position: absolute;
-        font-size: 16px;
-        font-weight: bold;
-        top: 45px;
-        left: -5px;
     }
 }
