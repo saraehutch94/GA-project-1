@@ -154,6 +154,7 @@ header, footer {
 .speech-bubble-text {
     position: absolute;
     top: 55px;
+    left: 5px;
     font-size: 22px;
     font-weight: bold;
 }
