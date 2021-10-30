@@ -194,6 +194,10 @@ footer {
         width: 100%;
     }
 
+    .speech-bubble-text {
+        font-size: 18px;
+    }
+
     .form-div {
         display: flex;
         flex-wrap: wrap;
