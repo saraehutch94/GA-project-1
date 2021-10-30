@@ -147,6 +147,8 @@ header, footer {
 
 .image-wrapper {
     position: relative;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: white;
 }
@@ -154,7 +156,7 @@ header, footer {
 .speech-bubble-text {
     position: absolute;
     top: 55px;
-    left: -5px;
+    right: 30px;
     font-size: 22px;
     font-weight: bold;
 }
