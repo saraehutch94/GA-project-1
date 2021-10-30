@@ -156,7 +156,7 @@ header, footer {
 .speech-bubble-text {
     position: absolute;
     top: 55px;
-    right: 29px;
+    right: 30px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -192,6 +192,10 @@ footer {
 
     .baby-groot-wrapper {
         width: 100%;
+    }
+
+    .speech-bubble-text {
+        font-size: 18px;
     }
 
     .form-div {
