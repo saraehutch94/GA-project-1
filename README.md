@@ -15,7 +15,7 @@ A simple web app for displaying your favorite Marvel characters (superhero or su
 ![Screenshot 3: Full project plan](https://i.imgur.com/57AxxR2.png)
 
 ## Getting Started
-![Click here](https://marvel-mania.netlify.app) to see the site live
+[Click here](https://marvel-mania.netlify.app) to see the site live
 
 ## Future Enhancements
 * Enhance responsive design of site: utilize more rem sizes instead of pixels, gain more information on flexbox + grid and apply knowledge to the site
