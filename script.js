@@ -83,4 +83,5 @@ function render() {
     });
     const $nameTitle = $(".name-title");
     $nameTitle.addClass("title-font");
+    $input.val("");
 };
