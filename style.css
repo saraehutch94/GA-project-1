@@ -194,10 +194,10 @@ footer {
         width: 100%;
     }
 
-    /* .speech-bubble-text {
+    .speech-bubble-text {
         font-size: 19px;
         right: 35px;
-    } */
+    }
 
     .form-div {
         display: flex;
