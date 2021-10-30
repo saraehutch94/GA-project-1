@@ -29,7 +29,13 @@ body {
     width: 400px;
 }
 
+.intro-title {
+    margin: 30px 0 0 0;
+    font-size: 35px;
+}
+
 .intro-text {
+    font-size: 20px;
     width: 100%;
     display: inline;
 }
@@ -168,6 +174,14 @@ footer {
     header {
         top: 20px;
         font-size: 30px;
+    }
+
+    .intro-title {
+        font-size: 25px;
+    }
+
+    .introduction {
+        width: 300px;
     }
 
     .baby-groot-wrapper {
