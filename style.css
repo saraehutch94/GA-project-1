@@ -26,11 +26,12 @@ body {
 }    
 
 .introduction {
-    width: 100%;
+    width: 400px;
 }
 
 .intro-text {
     width: 100%;
+    display: inline;
 }
 
 .main-wrapper {
