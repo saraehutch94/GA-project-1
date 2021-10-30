@@ -19,6 +19,20 @@ body {
     font-weight: 300;
 }
 
+.intro-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}    
+
+.introduction {
+    width: 100%;
+}
+
+.intro-text {
+    width: 100%;
+}
+
 .main-wrapper {
     display: flex;
     flex-wrap: wrap;
