@@ -50,13 +50,12 @@ function handleSubmit(evt) {
 // render function:
 // enter into data object and access name, description, and image of character
 // assign each of those values to a variable
-// if the imageURL variable includes the words "not available" -> render only name of character and description
-// otherwise (else), render the name of the character, description, and the image
 // render these variables to the DOM using cached element references + interpolation
 function render() {
     const name = marvelData.data.results[0].name;
     const description = marvelData.data.results[0].description;
     const imageURL = (marvelData.data.results[0].thumbnail.path) + "." + marvelData.data.results[0].thumbnail.extension;
+    // if the imageURL variable includes the words "not available" -> render only name of character and description
     if (imageURL.includes("not_available")) {
         $main.html(`
         <article class="name-and-desc">
@@ -114,6 +113,7 @@ function render() {
         $nameTitle.addClass("title-font");
         // clear input area after user submits
         $input.val("");
+    // otherwise (else), render the name of the character, description, and the image
     } else {
         $main.html(`
         <article class="name-and-desc">
