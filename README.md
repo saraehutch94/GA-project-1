@@ -20,4 +20,6 @@ A Marvel search engine web app for displaying your favorite Marvel characters (s
 [Click here](https://marvel-mania.netlify.app) to see the site live
 
 ## Future Enhancements
-* Enhance responsive design of site: utilize more rem sizes instead of pixels, gain more information on flexbox + grid and apply knowledge to the site
+Enhance responsive design of site:
+* Utilize more rem sizes instead of pixels
+* Gain more information on grid (flexbox used for this project) and apply knowledge to this site
