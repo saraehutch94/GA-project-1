@@ -1,5 +1,5 @@
 # Marvel Mania App
-A simple web app for displaying your favorite Marvel characters (superhero or supervillain) with a description and photo of each.
+A Marvel search engine web app for displaying your favorite Marvel characters (superhero or supervillain) with a description and photo of each, as well as what events the character was involved in (ex: Age of Ultron, Infinity War, etc).
 
 ## Technologies Used
 * HTML5
