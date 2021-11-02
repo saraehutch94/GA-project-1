@@ -55,6 +55,7 @@ function render() {
     const name = marvelData.data.results[0].name;
     const description = marvelData.data.results[0].description;
     const imageURL = (marvelData.data.results[0].thumbnail.path) + "." + marvelData.data.results[0].thumbnail.extension;
+    $storiesDiv.html("")
     // if the imageURL variable includes the words "not available" -> render only name of character and description
     if (imageURL.includes("not_available")) {
         $main.html(`
