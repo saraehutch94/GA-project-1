@@ -19,10 +19,6 @@ body {
     font-weight: 300;
 }
 
-.hidden-helper-class {
-    visibility: hidden;
-}
-
 .intro-wrapper {
     display: flex;
     flex-wrap: wrap;
