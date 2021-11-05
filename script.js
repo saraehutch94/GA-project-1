@@ -114,7 +114,7 @@ function render() {
         $nameTitle.addClass("title-font");
         // clear input area after user submits
         $input.val("");
-    // otherwise (else), render the name of the character, description, and the image
+        // otherwise (else), render the name of the character, description, and the image
     } else {
         $main.html(`
         <article class="name-and-desc">
@@ -130,7 +130,7 @@ function render() {
         const eventArray = marvelData.data.results[0].events.items;
         for (let i = 0; i < eventArray.length; i++) {
             let stories = eventArray[i].name;
-            $storiesDiv.append(`<p>${stories}</p>`);
+            $storiesDiv.append(`<p class="story">${stories}</p>`);
         }
         // CSS edits to events div
         $storiesDiv.css({

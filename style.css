@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}    
+}
 
 .introduction {
     width: 400px;
@@ -111,11 +111,12 @@ header {
     display: none;
 }
 
-.story-list {
-    list-style-type: none;
+.story:nth-child(odd) {
+    font-weight: bold;
 }
 
-header, footer {
+header,
+footer {
     color: white;
     display: flex;
     align-items: center;
